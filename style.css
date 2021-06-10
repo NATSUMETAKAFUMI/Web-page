@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body
+{
+	background-color: #fffeee;
+	background-image: url(images/iphone-12-purple-select-2021.png);
+        background-repeat: no-repeat; /*画像は繰り返さない*/
+        background-position: right top;
+}
+
+h1
+{
+	color: #0bd;
+}
+
+p
+{
+	font-weight: bold; /*太字*/
+	font-size: 20px;
+}
