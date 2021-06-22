@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html lang = "ja">
+	<head>
+		<meta charset = "UTF-8">
+		<title>iphone12当選フォーラム</title>
+		<meta name = "description" content = "iphoneご当選の通知" >
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+
+	<body>
+		<h1>iphone12ご当選おめでとうございます</h1>
+	<section>
+		<p>下記のフォーラムから情報を入力して下さい</p>
+
+	<form = action = "example.php" method = "post" name = "contact-form">
+
+	 名前 <br>
+	<input type = "text" placeholder = "山田 太郎">
+
+	</form>
+
+	<form = action = "example.php" method = "post" name = "contact-form">
+
+         フリガナ <br>
+        <input type = "text" placeholder = "ヤマダ タロウ">
+
+	</form>
+
+	<form = action = "example.php" method = "post" name = "contact-form">
+
+	 メールアドレス <br>
+        <input type = "email"  placeholder = "test@test.com">
+
+	</form>
+
+	<form = action = "example.php" method = "post" name = "contact-form">
+
+	 電話番号 <br>
+	<input type = "tel" placeholder = "電話番号">
+		
+	</form>
+
+	<form = action = "example.php" method = "post" name = "contact-form">
+
+         生年月日 <br>
+        <input type = "date" name = "birthday">
+
+        </form>
+
+	<form = action = "example.php" method = "post" name = "contact-form">
+
+        お支払い方法
+        <select name = "bloodtype">
+                <option value = "A"> A </option>
+                <option value = "B"> B </option>
+                <option value = "O"> O </option>
+                <option value = "AB"> AB </option>
+                <option value = "不明"> 不明 </option>
+        </select>
+
+	</form>
+
+	<form = action = "example.php" method = "post" name = "contact-form">
+
+        <textarea name = "message" placeholder = "メッセージを入力"> </textarea>
+
+	</form>
+
+	<form = action = "example.php" method = "post" name = "contact-form">
+
+        <input type = "submit" value = "送信する" onclick = "alert('送信してもよろしいですか？')">
+	</form>
+
+	<script>
+	window.onload = function() 
+	{
+		setInterval(function() {
+			var dd = new Date();
+			document.getElementById("T1").innerHTML = dd.toLocaleString();
+		}, 1000);
+	}
+	</script>
+
+	<body>
+</section>
+
+<div	 id = "T1">
+</div>
+</body>
+</body>
+</html>
